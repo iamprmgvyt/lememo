@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* simple dark mode class toggle */
+:root { color-scheme: light; }
+.dark-mode { background:#0b1220; color:#e6eef8; }
+.panel { background: white; }
+.dark-mode .panel { background: #0f1724; }
+html,body,#__next{height:100%}
